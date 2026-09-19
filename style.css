@@ -1,0 +1,142 @@
+/* Reset and base styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #3a2e35;
+    line-height: 1.7;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo {
+    color: #b03a5b;
+    margin: 0;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: underline;
+    color: #7a4b6e;
+    font-weight: bold;
+}
+
+.navbar nav a:hover {
+    color: #b03a5b;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 70px 20px 50px;
+    background: linear-gradient(180deg, #fff0f5 0%, #fdf6f0 100%);
+}
+
+.hero .profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f4c2c2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero h1 span {
+    color: #b03a5b;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+/* Generic sections */
+.section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.section h3 {
+    color: #b03a5b;
+    font-size: 24px;
+    border-bottom: 3px solid #f4c2c2;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+/* Skills cards */
+.card-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    font-weight: bold;
+    color: #7a4b6e;
+}
+
+/* Steps list */
+.steps-list {
+    background-color: #fff0f5;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.steps-list li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.footer a {
+    color: #b03a5b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #7a4b6e;
+}
+
+.footer .copyright {
+    font-size: 13px;
+    color: #999999;
+    margin-top: 15px;
+}
