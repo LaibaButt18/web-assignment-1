@@ -1,4 +1,3 @@
-/* Reset and base styling */
 * {
     box-sizing: border-box;
 }
@@ -11,7 +10,6 @@ body {
     line-height: 1.7;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,7 +37,6 @@ body {
     color: #b03a5b;
 }
 
-/* Hero section */
 .hero {
     text-align: center;
     padding: 70px 20px 50px;
@@ -71,7 +68,6 @@ body {
     font-size: 17px;
 }
 
-/* Generic sections */
 .section {
     max-width: 800px;
     margin: 0 auto;
@@ -87,7 +83,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Skills cards */
 .card-list {
     list-style: none;
     padding: 0;
@@ -105,7 +100,6 @@ body {
     color: #7a4b6e;
 }
 
-/* Steps list */
 .steps-list {
     background-color: #fff0f5;
     padding: 20px 40px;
@@ -116,7 +110,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     padding: 40px 20px;
